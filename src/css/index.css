@@ -2,5 +2,7 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 body{ color: white;}
 h1{color: blue;}
-p{ color: orange;}
+p{ color: orange;
+   font-size: 20px;
+ }
 
