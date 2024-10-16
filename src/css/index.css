@@ -5,7 +5,7 @@ h1{color: blue;}
 p{ color: orange;
    font-size: 20px;
  }
-a{text-decoration: none;}
+a{text-decoration: none; color: gray;}
 a{color: red; text-decoration: none;}
 section{color: white; text-align: center;text-decoration: none;}
 
