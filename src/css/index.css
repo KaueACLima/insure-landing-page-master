@@ -1,11 +1,30 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-body{ color: white;}
-h1{color: blue;}
-p{ color: orange;
-   font-size: 20px;
- }
-a{text-decoration: none; color: gray;}
-a{color: red; text-decoration: none;}
-section{color: white; text-align: center;text-decoration: none;}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--very-light-gray, hsl(0, 0%, 98%));
+}
+
+.cabecalho .navigation,
+.cabecalho .menu {
+  display: flex;
+
+}
+
+.cabecalho .navigation {
+  justify-content: space-evenly;
+}
+
+.cabecalho .menu {
+  font-size: 1.8rem;
+  gap: 2.5rem;
+}
