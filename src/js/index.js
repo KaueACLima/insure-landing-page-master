@@ -5,5 +5,5 @@ hamburguer.addEventListener("click", function () {
   desktopMenu.classList.toggle("hidden");
   hamburguer.src = desktopMenu.classList.contains("hidden")
     ? "./src/images/icon-hamburger.svg"
-    : "../images/icon-close.svg";
+    : "./src/images/icon-close.svg";
 });
