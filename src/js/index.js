@@ -1,9 +1,15 @@
-const hamburguer = document.querySelector(".hamburguer");
-const desktopMenu = document.querySelector(".desktop-menu");
+const menuBtn = document.querySelector(".menu-btn");
 
-hamburguer.addEventListener("click", function () {
-  desktopMenu.classList.toggle("hidden");
-  hamburguer.src = desktopMenu.classList.contains("hidden")
-    ? "./src/images/icon-hamburger.svg"
-    : "./src/images/icon-close.svg";
-});
+menuBtn.addEventListener('click', () => {
+  const menu = document.querySelector(".nav-links");
+  const icon = menuBtn.querySelector("img");
+
+  menu.classList.toggle("active");
+  if(menu.classList.contains("active")) {
+    icon.src="./src/images/icon-close.svg";
+    document.body.style.overflow = "hidden";
+  } else {
+    icon.src="./src/images/icon-hamburger.svg";
+    document.body.style.overflow = "auto";
+  }
+})
